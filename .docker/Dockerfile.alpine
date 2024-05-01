@@ -30,6 +30,7 @@ RUN if [ "${TARGETPLATFORM}" == "linux/arm64" ]; then \
     zlib-dev \
     libffi-dev \
     cairo-dev \
+    qpdf-dev \
     pkgconfig \
     ;  \
     fi
